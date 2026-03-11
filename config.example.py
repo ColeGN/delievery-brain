@@ -1,0 +1,19 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+WINDOW_WIDTH = 900
+WINDOW_HEIGHT = 700
+FPS = 60
+
+ROBOT_SPEED = 5.0
+ROBOT_TURN_SPEED = 10.0
+ROBOT_SIZE = 20
+
+DANGER_DISTANCE = 35
+SAFETY_DISTANCE = 80
+
+DESTINATION = (800, 600)
+
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '')
